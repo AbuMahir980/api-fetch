@@ -6,7 +6,7 @@ const DelCard = ({ title, setIsModalOpen}) => {
     }
     return (
         <div
-            className="fixed top-0 flex min-h-screen w-full items-center justify-center bg-black bg-opacity-60"
+            className="fixed top-0 left-0 flex min-h-screen w-full items-center justify-center bg-black bg-opacity-60"
             id="modal"
             onClick={handleToggle}
         >
